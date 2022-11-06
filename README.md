@@ -26,13 +26,14 @@ Ideally we should be running Linux, but working on Windows and MacOS isn't a bar
   > `sudo apt install nasm qemu`
   
 - ## MacOS
-  - 
+  - Just like apt, brew is a one-liner software wizard. Installing things has never been easier!
   > `brew install nasm qemu`
   
 # Putting it all together
 
 - Clone the repo and type in
   > `make`
+  
   in the root directory
   
   ![A king in the making](/assets/images/make.png)
