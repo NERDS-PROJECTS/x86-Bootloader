@@ -28,3 +28,12 @@ Ideally we should be running Linux, but working on Windows and MacOS isn't a bar
 - ## MacOS
   - 
   > `brew install nasm qemu`
+  
+# Putting it all together
+
+- Clone the repo and type in
+  > `make`
+  in the root directory
+- Finally, to initialise the bootloader in an i386 virtual qemu machine
+  > `qemu-system-i386 -fda build/main_floppy.img`
+- Et voila! A super lightweight text greeting that will make interpreted programmers cry blood.
