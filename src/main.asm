@@ -62,5 +62,5 @@ main:
 msg_hello: db 'Hello world!', ENDL, 0
 
 
-times 510-($-$$) db 0
-dw 0AA55h
+times 510-($-$$) db 0 ; the dummy data filling the first 510 bytes of the first sector of virtual floppy disk
+dw 0AA55h             ; the signature that BIOS needs to start booting our program
