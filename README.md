@@ -34,6 +34,12 @@ Ideally we should be running Linux, but working on Windows and MacOS isn't a bar
 - Clone the repo and type in
   > `make`
   in the root directory
+  
+  ![A king in the making](/assets/images/make.png)
+  
 - Finally, to initialise the bootloader in an i386 virtual qemu machine
   > `qemu-system-i386 -fda build/main_floppy.img`
+
+  ![End of an era](/assets/images/bootloader.png)
+
 - Et voila! A super lightweight text greeting that will make interpreted programmers cry blood.
